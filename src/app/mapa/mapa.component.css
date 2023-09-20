@@ -1,0 +1,27 @@
+#mapa{
+    height: 800px
+}
+
+#caixa-mapa{
+    text-align: center;
+    color: #bf0507;
+    background: url(../../assets/img/fundo-mapa.jpg);
+    position: relative;
+    height: 100%;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    padding-top: 170px;
+}
+
+#caixa-mapa iframe{
+    margin-left: 400px;
+}
+
+#caixa-mapa h1{
+    font-size: 2.5em;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    font-weight: 700;
+}

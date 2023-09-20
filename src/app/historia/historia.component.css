@@ -1,0 +1,30 @@
+#caixa-historia{
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.5px;
+    color: #000408;
+    background: url(../../assets/img/fundo-historia.jpg);
+    position: relative;
+    height: 100%;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#caixa-historia h2{
+    padding: 5px;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#caixa-historia p{
+    padding: 5px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 15px;
+
+}

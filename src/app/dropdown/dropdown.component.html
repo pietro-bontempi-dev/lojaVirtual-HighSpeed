@@ -1,0 +1,70 @@
+<section id="dropdown-geral">
+<section class="dropdown">
+    <div class="container">
+
+        <h2 class="texto-dropdown">Pesquisa de Preço</h2>
+        <div class="row">
+            <div class="form-group select-dropdown">
+                <select [(ngModel)]="select1" (change)="onChange()" class="col-md-4">
+            
+                    <option *ngFor="let p of pesquisa" [value]="p.id">
+                
+                        {{p.name}}
+                
+                    </option>
+                
+                </select>
+                
+                <select [(ngModel)]="select2" class="rounded-inputs20 select-select col-md-4">
+                
+                    <option *ngFor="let c of modelos" [value]="c">
+                
+                        {{c}}
+                
+                    </option>
+                
+                </select>
+                
+                <button class="btn-custom col-md-3" (click)="clickButton()"><i class="fa-solid fa-magnifying-glass"></i> Pesquisar</button>
+
+            </div>
+        </div>
+        
+        
+        <p class="texto-pesquisa">Marca: {{marca}}</p>
+        
+        <p class="texto-pesquisa">Modelo: {{modelo}}</p>
+        
+        <p class="texto-pesquisa">Preço: {{preco}}</p>
+
+    </div>
+
+</section>
+
+<section id="lista-desejos">
+
+    <div class="container">
+
+        <h2 class="titulo-desejo">Mande para nós um carro que você deseja ver na loja</h2>
+
+        <label>Adicione um novo item na lista: <input #newItem /></label>
+        <!-- nome para pegar no TS, importando como um filho (com o viewchild)-->
+        <br />
+        <div class="div-botao">
+            <button (click)="addNewItem(newItem.value)" class="btn-verde">Adicione um modelo</button>
+            <button (click)="remove()" class="btn-azul">Limpar texto</button>
+        </div>
+        <!--a ação do botão precisa ser enviada para o TS, ou seja, a função addNeItem() será chamada para adicionar o valor do newItem, o parâmetro passado na função -->
+
+        <ul>
+        <li *ngFor="let elemento of items">{{ elemento }}</li>
+        <!-- ngFor é um foreach no front que percorre a lista items, pegando o item do parâmetro -->
+        </ul>
+
+        <button (click)="removeItens()" class="btn-custom">Limpar a lista</button>
+
+
+    </div>
+
+</section>
+</section>

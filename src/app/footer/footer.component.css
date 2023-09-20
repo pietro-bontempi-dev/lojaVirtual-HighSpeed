@@ -1,0 +1,34 @@
+
+#rodape{
+    background-color: #000408;
+}
+
+#caixa-rodape{
+    text-align: center;
+    color:#fff;
+    position: relative;
+    height: 100%;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    padding-top: 50px;
+}
+
+#caixa-rodape h4{
+    letter-spacing: 2px;
+
+}
+
+#caixa-rodape h6{
+    margin-top: 25px;
+}
+
+#caixa-rodape a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#caixa-rodape a:hover{
+    color: #bf0507;
+}

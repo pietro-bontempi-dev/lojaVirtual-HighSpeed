@@ -1,0 +1,30 @@
+#video{
+    height: 800px;
+}
+
+#caixa-video{
+    text-align: center;
+    color: #000408;
+    background: url(../../assets/img/fundo-video.jpg);
+    position: relative;
+    height: 100%;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    padding-top: 80px;
+}
+
+#caixa-video h1{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#caixa-video iframe{
+    margin-top: 50px;
+}
+
+#caixa-video span{
+    color:#bf0507
+}

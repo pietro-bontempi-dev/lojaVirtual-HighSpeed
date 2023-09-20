@@ -1,0 +1,49 @@
+#contato{
+    height: 1000px;
+}
+
+#caixa-contato{
+    text-align: center;
+    color:#fff;
+    background: url(../../assets/img/fundo-contato.jpg);
+    position: relative;
+    height: 100%;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    padding-top: 220px;
+}
+
+#caixa-contato div{
+    margin: 30px;
+}
+
+#caixa-contato input, select, textarea{
+    border: 1px solid black;
+}
+
+#caixa-contato textarea{
+    width: 500px;
+    height:300px
+}
+
+#caixa-contato h1{
+    -webkit-text-stroke-color: #000408;
+    -webkit-text-stroke-width: 1.5px; 
+}
+
+textarea, input, select, option{
+    border-radius: 15px;
+    border: black 1px solid;
+}
+
+
+.btn-verde{
+    background-color: #2BE800;
+    color: white;
+    border-radius: 15px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}

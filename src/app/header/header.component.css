@@ -1,0 +1,42 @@
+#cabecalho{
+    background: #000408;
+}
+
+#logo-caixa{
+    position: relative;
+    margin: auto;
+    margin-left: 100px;
+}
+
+#logo-caixa h1{
+    text-indent: 9000px;
+}
+
+
+#navbar{
+    position: absolute;
+    top: 40px;
+    right: 90px;
+    background-color: #000408;
+}
+
+#navbar ul{
+    list-style: none;
+    margin-right: 100px;
+}
+
+#navbar li{
+    display: inline;
+    margin: 0 0 0 15px;
+    padding: 15px;
+}
+
+#navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#navbar ul li a:hover{
+    color: #bf0507;
+}

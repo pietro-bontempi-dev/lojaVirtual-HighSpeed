@@ -1,0 +1,20 @@
+#inicio{
+    height: 800px;
+}
+
+#caixa-inicio{
+    text-align: center;
+    color:#fff;
+    background: url(../../assets/img/fundo-inicio.jpg);
+    position: relative;
+    height: 100%;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    padding-top: 270px;
+}
+
+#caixa-inicio h1{
+    font-size: 3.5em;
+}
